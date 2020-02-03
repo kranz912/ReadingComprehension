@@ -6,9 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask-mongoengine = "*"
 flask = "*"
 flask-wtf = "*"
+mongoengine = "*"
 
 [requires]
 python_version = "3.6"

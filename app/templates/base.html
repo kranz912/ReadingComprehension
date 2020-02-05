@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="{{url_for('static',filename='node_modules/bootstrap.min.css')}}">
   </head>
   <body>
-    {% block content %}{% endblock %}
+
+    <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Sidebar</h3>
+      </div>
+      <ul class="list-unstyled components">
+
+      </ul>
+
+    </nav>
+
+    <div id="content">
+          {% block content %}{% endblock %}
+    </div>
+
+
   </body>
 </html>

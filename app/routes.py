@@ -31,4 +31,4 @@ def register():
         )
         context.save()
         return redirect('/index')
-    return render_template('auth/register.html',form=form)
+    return render_template('auth/register.html',form=form,page='register')
